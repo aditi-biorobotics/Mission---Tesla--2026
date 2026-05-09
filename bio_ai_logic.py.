@@ -1,0 +1,12 @@
+# Day 1: "My First Bio-AI logic"
+print("Welcome to Aditi's Bio-Robotics Lab")
+user_name = "Aditi"
+print("system Active for: " + user_name)
+# Zoology background 
+heart_rate = int(input("Enter Patient heart rate:   "))
+if heart_rate > 100:
+	print("Alert: High heart rate! Sending data to AI ...")
+elif heart_rate < 60:
+		print ("Alert: Low heart rate! Monitoring ...")
+else: 
+        print("Normal heart rate everything is fine.")
